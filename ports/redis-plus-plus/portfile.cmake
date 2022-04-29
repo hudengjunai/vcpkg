@@ -1,13 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO sewenew/redis-plus-plus
-<<<<<<< HEAD
     REF e29c63db54653a660d7a0f556f670b7a6fce0a78 #1.3.2
     SHA512 47b18f41cfaf5e11d6eba1201a3da3a1ed355583cde0772de68e5f0f25953e1467c83249848b25b16c9db9e3f6c5df5e1dd832f4b3dd41289c69111867e48d8c 
-=======
-    REF e29c63db54653a660d7a0f556f670b7a6fce0a78 # 1.3.2
-    SHA512 47b18f41cfaf5e11d6eba1201a3da3a1ed355583cde0772de68e5f0f25953e1467c83249848b25b16c9db9e3f6c5df5e1dd832f4b3dd41289c69111867e48d8c
->>>>>>> 2ac61f87f69f0484b8044f95ab274038fbaf7bdd
     HEAD_REF master
     PATCHES
         fix-ws2-linking-windows.patch
